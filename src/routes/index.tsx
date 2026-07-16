@@ -152,7 +152,7 @@ function Home() {
               Craving hits<br /><span className="text-mustard italic">different</span> here.
             </h2>
             <p className="mt-5 text-lg text-cream/85 max-w-md">
-              40+ shakes. 20+ lassis. Waffles, sandwiches, mocktails and desi favourites — all under one roof at F.M Golai.
+              40+ shakes. 20+ lassis. Waffles, sandwiches, mocktails and desi favourites — all under one roof at DIC Market Complex, OT Road.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/menu" className="inline-flex items-center gap-2 h-14 px-8 rounded-full bg-cream text-ink font-bold shadow-button hover:scale-105 transition-transform">
