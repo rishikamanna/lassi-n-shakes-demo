@@ -69,7 +69,7 @@ function ContactPage() {
           <div className="rounded-3xl overflow-hidden shadow-card border border-border aspect-[4/3]">
             <iframe
               title="Lassi n Shakes location on Google Maps"
-              src="https://www.google.com/maps?q=Lassi+n+Shake+Balasore&output=embed"
+              src="https://www.google.com/maps?q=Lassi+N+Shakes+DIC+Market+Complex+Balasore&ll=21.4870969,86.9171678&z=17&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
