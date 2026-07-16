@@ -75,7 +75,7 @@ function Home() {
             <div className="mt-10 flex gap-8">
               <Stat n="50K+" l="Shakes blended" />
               <Stat n="10+" l="Years in Balasore" />
-              <Stat n="4.6★" l="Zomato rated" />
+              <Stat n="4.1★" l="Google rated" />
             </div>
           </div>
 
