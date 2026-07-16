@@ -146,9 +146,50 @@
   50% { box-shadow: 0 0 0 18px oklch(0.52 0.21 22 / 0); }
 }
 
+/* 3D stamp entrance: slams in from far away, over-rotates, settles */
+@keyframes stamp-in-3d {
+  0%   { opacity: 0; transform: perspective(1200px) translateZ(-800px) rotateX(45deg) rotateY(-180deg) scale(0.4); filter: blur(8px); }
+  55%  { opacity: 1; transform: perspective(1200px) translateZ(80px)  rotateX(-8deg) rotateY(20deg)  scale(1.1);  filter: blur(0); }
+  75%  { transform: perspective(1200px) translateZ(0)     rotateX(4deg)  rotateY(-8deg)  scale(0.97); }
+  100% { opacity: 1; transform: perspective(1200px) translateZ(0)     rotateX(0deg)  rotateY(0deg)   scale(1); filter: blur(0); }
+}
+
+/* Continuous slow 3D orbit — the glass gently turns like it's on a display plinth */
+@keyframes orbit-3d {
+  0%   { transform: perspective(1200px) rotateY(0deg)   rotateX(0deg)   translateY(0); }
+  25%  { transform: perspective(1200px) rotateY(12deg)  rotateX(-3deg)  translateY(-8px); }
+  50%  { transform: perspective(1200px) rotateY(0deg)   rotateX(0deg)   translateY(-14px); }
+  75%  { transform: perspective(1200px) rotateY(-12deg) rotateX(3deg)   translateY(-8px); }
+  100% { transform: perspective(1200px) rotateY(0deg)   rotateX(0deg)   translateY(0); }
+}
+
+/* Stamp shockwave ring */
+@keyframes stamp-ring {
+  0%   { opacity: 0; transform: translate(-50%, -50%) scale(0.2); }
+  40%  { opacity: 0.7; }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(2.4); }
+}
+
 .animate-pop-in { animation: pop-in 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
 .animate-float-slow { animation: float-slow 6s ease-in-out infinite; }
 .animate-fade-up { animation: fade-up 0.8s ease-out both; }
 .animate-marquee { animation: marquee 30s linear infinite; }
 .animate-spin-slow { animation: spin-slow 20s linear infinite; }
 .animate-pulse-glow { animation: pulse-glow 2s ease-out infinite; }
+
+.animate-stamp-in-3d {
+  animation:
+    stamp-in-3d 1.6s cubic-bezier(0.22, 1.4, 0.36, 1) both,
+    orbit-3d 9s ease-in-out 1.6s infinite;
+  transform-style: preserve-3d;
+  transform-origin: 50% 60%;
+  will-change: transform, opacity, filter;
+}
+.animate-stamp-ring {
+  animation: stamp-ring 1.4s ease-out 0.35s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-stamp-in-3d { animation: fade-up 0.4s ease-out both; }
+  .animate-stamp-ring { display: none; }
+}
