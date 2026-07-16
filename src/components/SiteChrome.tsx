@@ -3,10 +3,10 @@ import { useEffect, useState, type ReactNode } from "react";
 import logo from "@/assets/logo.png";
 
 const ZOMATO_URL = "https://www.zomato.com/balasore/lassi-n-shake-balasore-locality/order";
-const PHONE = "+919437061818";
-const PHONE_DISPLAY = "+91 94370 61818";
-const WHATSAPP = "https://wa.me/919437061818?text=Hi%20Lassi%20n%20Shakes%2C%20I%27d%20like%20to%20place%20an%20order.";
-const MAP_URL = "https://www.google.com/maps/search/?api=1&query=Lassi+n+Shake+Balasore";
+const PHONE = "+917008291745";
+const PHONE_DISPLAY = "+91 70082 91745";
+const WHATSAPP = "https://wa.me/917008291745?text=Hi%20Lassi%20N%20Shakes%2C%20I%27d%20like%20to%20place%20an%20order.";
+const MAP_URL = "https://www.google.com/maps/place/Lassi+N+Shakes/@21.4870969,86.9171678,17z/data=!3m1!4b1!4m6!3m5!1s0x3a1cf5a58100144f:0xfcc19e77bb645448!8m2!3d21.4870969!4d86.9171678!16s%2Fg%2F11ryslx_dt";
 
 const NAV = [
   { to: "/", label: "Home" },
