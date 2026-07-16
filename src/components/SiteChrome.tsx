@@ -185,8 +185,8 @@ export function SiteFooter() {
             rel="noreferrer"
             className="block text-cream/70 hover:text-cream transition-colors"
           >
-            F.M Golai Road,<br />
-            Balasore, Odisha 756001
+            Room no-6, DIC Market Complex,<br />
+            OT Road, Balasore, Odisha 756001
           </a>
           <a href={`tel:${PHONE}`} className="block mt-3 text-cream/70 hover:text-cream transition-colors">
             {PHONE_DISPLAY}
