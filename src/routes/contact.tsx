@@ -36,7 +36,7 @@ function ContactPage() {
           >
             <div className="h-14 w-14 rounded-2xl bg-crimson text-primary-foreground flex items-center justify-center text-2xl group-hover:scale-110 group-hover:-rotate-6 transition-transform">📍</div>
             <h3 className="mt-5 text-2xl text-ink">Directions</h3>
-            <p className="mt-2 text-muted-foreground">F.M Golai Road, Balasore, Odisha 756001</p>
+            <p className="mt-2 text-muted-foreground">Room no-6, DIC Market Complex, OT Road, Balasore, Odisha 756001</p>
             <span className="mt-4 inline-block text-crimson font-bold group-hover:underline underline-offset-4">Open in Google Maps →</span>
           </a>
 
