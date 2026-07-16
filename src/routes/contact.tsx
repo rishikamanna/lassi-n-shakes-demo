@@ -5,7 +5,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Visit Us — Lassi n Shakes, Balasore" },
-      { name: "description", content: "Find Lassi n Shakes at F.M Golai Road, Balasore, Odisha. Tap to call, tap to open Google Maps, or order on Zomato." },
+      { name: "description", content: "Find Lassi N Shakes at Room no-6, DIC Market Complex, OT Road, Balasore, Odisha 756001. Tap to call +91 70082 91745 or open Google Maps." },
     ],
   }),
   component: ContactPage,
