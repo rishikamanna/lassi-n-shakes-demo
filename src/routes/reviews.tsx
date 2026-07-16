@@ -28,7 +28,7 @@ function ReviewsPage() {
         <div className="max-w-5xl mx-auto text-center">
           <span className="text-mustard font-bold uppercase tracking-widest text-sm">Word on the street</span>
           <h1 className="mt-2 text-6xl md:text-8xl leading-[0.9]">
-            <span className="italic text-mustard">4.6★</span> and counting.
+            <span className="italic text-mustard">4.1★</span> across 94 Google reviews.
           </h1>
           <p className="mt-5 max-w-xl mx-auto text-lg text-cream/85">
             A decade of thick shakes, cold lassis and even warmer regulars. Here's what Balasore has to say.

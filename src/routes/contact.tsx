@@ -5,7 +5,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Visit Us — Lassi n Shakes, Balasore" },
-      { name: "description", content: "Find Lassi n Shakes at F.M Golai Road, Balasore, Odisha. Tap to call, tap to open Google Maps, or order on Zomato." },
+      { name: "description", content: "Find Lassi N Shakes at Room no-6, DIC Market Complex, OT Road, Balasore, Odisha 756001. Tap to call +91 70082 91745 or open Google Maps." },
     ],
   }),
   component: ContactPage,
@@ -18,10 +18,10 @@ function ContactPage() {
         <div className="max-w-5xl mx-auto">
           <span className="text-mustard font-bold uppercase tracking-widest text-sm">Come Say Hi</span>
           <h1 className="mt-2 text-6xl md:text-8xl leading-[0.9] text-balance">
-            Find us on <span className="italic text-mustard">F.M Golai</span>.
+            Find us on <span className="italic text-mustard">OT Road</span>.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-cream/85">
-            Right in the heart of Balasore. Tap any card below to call, message, or navigate — we've made it one thumb-tap.
+            DIC Market Complex, right in the heart of Balasore. Tap any card below to call, message, or navigate — we've made it one thumb-tap.
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ function ContactPage() {
           >
             <div className="h-14 w-14 rounded-2xl bg-crimson text-primary-foreground flex items-center justify-center text-2xl group-hover:scale-110 group-hover:-rotate-6 transition-transform">📍</div>
             <h3 className="mt-5 text-2xl text-ink">Directions</h3>
-            <p className="mt-2 text-muted-foreground">F.M Golai Road, Balasore, Odisha 756001</p>
+            <p className="mt-2 text-muted-foreground">Room no-6, DIC Market Complex, OT Road, Balasore, Odisha 756001</p>
             <span className="mt-4 inline-block text-crimson font-bold group-hover:underline underline-offset-4">Open in Google Maps →</span>
           </a>
 
@@ -69,7 +69,7 @@ function ContactPage() {
           <div className="rounded-3xl overflow-hidden shadow-card border border-border aspect-[4/3]">
             <iframe
               title="Lassi n Shakes location on Google Maps"
-              src="https://www.google.com/maps?q=Lassi+n+Shake+Balasore&output=embed"
+              src="https://www.google.com/maps?q=Lassi+N+Shakes+DIC+Market+Complex+Balasore&ll=21.4870969,86.9171678&z=17&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
