@@ -79,11 +79,13 @@ function Home() {
             </div>
           </div>
 
-          {/* 3D popping shake */}
-          <div className="relative flex items-center justify-center">
+          {/* 3D stamped-in shake */}
+          <div className="relative flex items-center justify-center" style={{ perspective: "1200px" }}>
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="h-[420px] w-[420px] md:h-[560px] md:w-[560px] rounded-full bg-mustard/25 blur-3xl animate-float-slow" />
             </div>
+            {/* stamp shockwave */}
+            <div className="pointer-events-none absolute left-1/2 top-1/2 h-[280px] w-[280px] md:h-[420px] md:w-[420px] rounded-full border-4 border-mustard/60 animate-stamp-ring" />
             <div className="absolute h-[300px] w-[300px] md:h-[420px] md:w-[420px] rounded-full border border-white/10 animate-spin-slow" />
             <div className="absolute h-[380px] w-[380px] md:h-[520px] md:w-[520px] rounded-full border border-white/5" />
             <img
@@ -91,7 +93,8 @@ function Home() {
               alt="Mango lassi with pistachios splashing out of the glass"
               width={600}
               height={720}
-              className="relative z-10 w-[320px] md:w-[520px] h-auto drop-shadow-2xl animate-pop-in"
+              fetchPriority="high"
+              className="relative z-10 w-[320px] md:w-[520px] h-auto drop-shadow-2xl animate-stamp-in-3d"
               style={{ filter: "drop-shadow(0 40px 60px rgba(0,0,0,0.5))" }}
             />
             <div className="absolute top-6 right-2 md:right-8 z-20 rotate-[10deg] animate-float-slow">
