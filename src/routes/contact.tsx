@@ -18,10 +18,10 @@ function ContactPage() {
         <div className="max-w-5xl mx-auto">
           <span className="text-mustard font-bold uppercase tracking-widest text-sm">Come Say Hi</span>
           <h1 className="mt-2 text-6xl md:text-8xl leading-[0.9] text-balance">
-            Find us on <span className="italic text-mustard">F.M Golai</span>.
+            Find us on <span className="italic text-mustard">OT Road</span>.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-cream/85">
-            Right in the heart of Balasore. Tap any card below to call, message, or navigate — we've made it one thumb-tap.
+            DIC Market Complex, right in the heart of Balasore. Tap any card below to call, message, or navigate — we've made it one thumb-tap.
           </p>
         </div>
       </section>
