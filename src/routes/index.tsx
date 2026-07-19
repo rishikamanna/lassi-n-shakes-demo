@@ -48,7 +48,7 @@ function Home() {
               <span className="h-2 w-2 rounded-full bg-mustard animate-pulse" />
               Open now · 11 AM – 11 PM
             </div>
-            <h1 className="mt-6 text-6xl md:text-8xl font-black leading-[0.9] text-balance">
+            <h1 className="mt-6 text-[2.75rem] leading-[0.95] sm:text-5xl md:text-8xl font-black text-balance">
               Thick.<br />
               <span className="text-mustard">Cold.</span><br />
               Unforgettable.
